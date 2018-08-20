@@ -4,10 +4,6 @@ ro.sf.lcd_density=480
 # USB path
 ro.usb.pid_suffix=19E
 
-# Ril
-ro.use_data_netmgrd=true
-ro.ril.enable.amr.wideband=1
-
 # Semc
 ro.semc.product.model=C6903
 ro.semc.ms_type_id=PM-0450-BV
