@@ -27,6 +27,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/honami/bluetooth
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := lineageos_rhine_honami_row_defconfig
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
